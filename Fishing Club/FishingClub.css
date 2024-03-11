@@ -1,0 +1,144 @@
+
+body {
+  font-family: Arial;
+  background: White;
+    margin-right:110px;
+    margin-left:110px;
+	margin-top:0px;
+	margin-bottom: 10px;
+	background-color: #D3D3D3;
+  }
+.contain{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.images{
+text-align:center;
+}
+.headerimage {
+	width:10px;
+	height: 10px;
+	  z-index: 0; /* Stay on top */
+
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 110px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: -1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ADD8E6; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav2 {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 120px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: -1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right:0;
+  background-color: #ADD8E6; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+tr {
+	
+background: white;
+border-color:Black;
+border:solid ;
+}
+td {
+background: white;
+border-color:Black;
+border: solid;
+}
+.Tables{
+padding-top:20px;	
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #ADD8E6;
+  font-size: 15px;
+
+
+}
+
+.Forms{
+padding:20px;
+width: 25%;
+}
+.content {
+	padding:20px;
+	}
+
+.column {
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+.columntext {
+  padding-left: 20px;
+  float: left;
+  width:30%;
+  text-align: center;
+}
+.column2 {
+  padding-left:140px;
+  float: left;
+  width: 30%;
+}
+.columntext2 {
+  padding-left:140px;
+  float: left;
+  width:30%;
+  text-align: center;
+}
+
+a:link {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: White;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.login {
+	float:left;
+}
+.columnheader {
+  padding: 20px;
+  float: left;
+  width: 3%;
+  color: black;
+ text-align:center;
+}
+.Headerfont{
+ 
+	 font-size: 10px;
+
+}
